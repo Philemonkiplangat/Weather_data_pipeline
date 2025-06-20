@@ -1,0 +1,52 @@
+2025-06-20 09:36:43,307 - INFO - \U0001f680 Starting weather data pipeline for Uasin Gishu County
+2025-06-20 09:36:43,307 - INFO - Fetching weather data from URL: https://archive-api.open-meteo.com/v1/archive?latitude=0.5143&longitude=35.2698&start_date=2020-06-21&end_date=2025-06-20&daily=temperature_2m_max,temperature_2m_min,precipitation_sum,windspeed_10m_max&timezone=Africa%2FNairobi
+2025-06-20 09:36:45,495 - INFO - Saved 1826 rows to uasin_gishu_weather_data.csv
+2025-06-20 09:36:45,495 - INFO - \u2705 Weather data pipeline completed successfully.
+2025-06-20 09:46:12,838 - INFO - \U0001f680 Starting weather data pipeline for Uasin Gishu County
+2025-06-20 09:46:12,839 - INFO - Fetching weather data from URL: https://archive-api.open-meteo.com/v1/archive?latitude=0.5143&longitude=35.2698&start_date=2020-06-21&end_date=2025-06-20&daily=temperature_2m_max,temperature_2m_min,precipitation_sum,windspeed_10m_max&timezone=Africa%2FNairobi
+2025-06-20 09:46:14,002 - WARNING - Missing values found:
+time                  0
+temperature_2m_max    1
+temperature_2m_min    1
+precipitation_sum     2
+windspeed_10m_max     1
+dtype: int64
+2025-06-20 09:46:14,010 - INFO - Missing values filled with column means.
+2025-06-20 09:46:14,018 - INFO - Saved 1826 rows to uasin_gishu_weather_data_cleaned.csv
+2025-06-20 09:46:14,018 - INFO - \u2705 Weather data pipeline completed successfully.
+2025-06-20 09:54:09,826 - INFO - \U0001f680 Starting weather data pipeline for Uasin Gishu County
+2025-06-20 09:54:09,826 - INFO - Fetching weather data from URL: https://archive-api.open-meteo.com/v1/archive?latitude=0.5143&longitude=35.2698&start_date=2020-06-21&end_date=2025-06-20&daily=temperature_2m_max,temperature_2m_min,precipitation_sum,windspeed_10m_max&timezone=Africa%2FNairobi
+2025-06-20 09:54:11,127 - WARNING - Missing values found:
+time                  0
+temperature_2m_max    1
+temperature_2m_min    1
+precipitation_sum     2
+windspeed_10m_max     1
+dtype: int64
+2025-06-20 09:54:11,134 - INFO - Missing values filled with column means.
+2025-06-20 09:54:11,155 - INFO - Saved 1826 rows to uasin_gishu_weather_data_cleaned.csv
+2025-06-20 09:54:11,155 - INFO - \u2705 Weather data pipeline completed successfully.
+2025-06-20 09:56:44,655 - INFO - \U0001f680 Starting pipeline...
+2025-06-20 09:56:45,763 - WARNING - Missing values found:
+time                  0
+temperature_2m_max    1
+temperature_2m_min    1
+precipitation_sum     2
+windspeed_10m_max     1
+dtype: int64
+2025-06-20 09:56:45,763 - INFO - Filled missing values with column means.
+2025-06-20 09:56:45,779 - INFO - Saved cleaned data to uasin_gishu_weather_data_cleaned.csv
+2025-06-20 09:56:45,779 - INFO - \u2705 Pipeline completed successfully.
+2025-06-20 09:56:45,779 - INFO - \U0001f4be Pipeline object saved as weather_data_pipeline.joblib
+2025-06-20 11:19:13,499 - INFO - \U0001f680 Starting pipeline...
+2025-06-20 11:19:15,964 - WARNING - Missing values found:
+time                  0
+temperature_2m_max    1
+temperature_2m_min    1
+precipitation_sum     2
+windspeed_10m_max     1
+dtype: int64
+2025-06-20 11:19:15,979 - INFO - Filled missing values with column means.
+2025-06-20 11:19:15,987 - INFO - Saved cleaned data to uasin_gishu_weather_data_cleaned.csv
+2025-06-20 11:19:15,987 - INFO - \u2705 Pipeline completed successfully.
+2025-06-20 11:19:15,995 - INFO - \U0001f4be Pipeline object saved as weather_data_pipeline.joblib
